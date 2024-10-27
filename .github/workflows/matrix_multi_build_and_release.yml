@@ -79,7 +79,7 @@ jobs:
           printf '%s\n' "qbt_boost_tag=" >> env.custom
           printf '%s\n' "qbt_libtorrent_tag=" >> env.custom
           printf '%s\n' "qbt_qt_tag=" >> env.custom
-          printf '%s\n' "qbt_qbittorrent_tag=" >> env.custom
+          printf '%s\n' "qbt_qbittorrent_tag=release-4.6.7" >> env.custom
           printf '%s\n' "qbt_libtorrent_master_jamfile=no" >> env.custom
           printf '%s\n' "qbt_workflow_files=no" >> env.custom
           printf '%s\n' "qbt_workflow_artifacts=no" >> env.custom
